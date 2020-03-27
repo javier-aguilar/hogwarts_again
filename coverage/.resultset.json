@@ -221,6 +221,48 @@
           null
         ]
       },
+      "/Users/pippo/turing/2module/challenges/hogwarts_again/spec/features/user_can_see_a_professors_students_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/pippo/turing/2module/challenges/hogwarts_again/spec/features/user_can_see_all_professors_spec.rb": {
         "lines": [
           1,
@@ -259,15 +301,19 @@
           1,
           1,
           1,
-          null,
-          1,
-          1,
           1,
           null,
           1,
           1,
           1,
+          null,
           1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
           1,
           1,
           null,
@@ -339,46 +385,6 @@
           null
         ]
       },
-      "/Users/pippo/turing/2module/challenges/hogwarts_again/spec/features/user_can_see_information_sorted_alphabetically_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
       "/Users/pippo/turing/2module/challenges/hogwarts_again/spec/models/professor_spec.rb": {
         "lines": [
           1,
@@ -417,11 +423,15 @@
           1,
           1,
           1,
-          111,
+          113,
           null,
           1,
+          8,
+          1,
+          null,
           21,
           7,
+          null,
           null,
           null,
           null
@@ -496,7 +506,7 @@
           1,
           1,
           1,
-          102,
+          106,
           null,
           1,
           7,
@@ -505,12 +515,12 @@
           null
         ]
       },
-      "/Users/pippo/turing/2module/challenges/hogwarts_again/app/controllers/professor_students_controller.rb": {
+      "/Users/pippo/turing/2module/challenges/hogwarts_again/app/controllers/students_controller.rb": {
         "lines": [
           1,
           null,
           1,
-          6,
+          2,
           null,
           null,
           null
@@ -534,18 +544,18 @@
           null
         ]
       },
-      "/Users/pippo/turing/2module/challenges/hogwarts_again/app/controllers/students_controller.rb": {
+      "/Users/pippo/turing/2module/challenges/hogwarts_again/app/controllers/professor_students_controller.rb": {
         "lines": [
           1,
           null,
           1,
-          2,
+          7,
           null,
           null,
           null
         ]
       }
     },
-    "timestamp": 1585327427
+    "timestamp": 1585327969
   }
 }

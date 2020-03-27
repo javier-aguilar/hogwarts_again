@@ -6,6 +6,7 @@ RSpec.describe "As a visitor" do
       snape = Professor.create(name: "Severus Snape", age: 45, specialty: "Potions")
       hagarid = Professor.create(name: "Rubus Hagarid", age: 38 , specialty: "Care of Magical Creatures")
       lupin = Professor.create(name: "Remus Lupin", age: 49 , specialty: "Defense Against The Dark Arts")
+      mcgonagall = Professor.create(name: "Minerva McGonagall", age: 49 , specialty: "Transfiguration")
 
       harry = Student.create(name: "Harry Potter" , age: 11 , house: "Gryffindor" )
       malfoy = Student.create(name: "Draco Malfoy" , age: 12 , house: "Slytherin" )
@@ -26,6 +27,9 @@ RSpec.describe "As a visitor" do
 
       visit "/professors/#{lupin.id}"
       expect(page).to have_content("11.5")
+
+      visit "/professors/#{mcgonagall.id}"
+      expect(page).to have_content("0")
 
     end
 end

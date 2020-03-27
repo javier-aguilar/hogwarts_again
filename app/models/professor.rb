@@ -5,8 +5,12 @@ class Professor < ApplicationRecord
   default_scope { order(name: :asc) }
 
   def avg_age_of_students
-    total_age = students.map { |student| student.age }
-    total_age.sum.to_f / students.size
+    if students.empty?
+      0
+    else
+      total_age = students.map { |student| student.age }
+      total_age.sum.to_f / students.size
+    end
   end
 
 end
