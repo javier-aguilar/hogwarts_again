@@ -210,6 +210,8 @@
           null,
           1,
           null,
+          1,
+          null,
           null
         ]
       },
@@ -243,6 +245,61 @@
           1,
           1,
           1,
+          null,
+          null
+        ]
+      },
+      "/Users/pippo/turing/2module/challenges/hogwarts_again/spec/features/user_can_see_courses_and_number_of_professors_per_student_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
           null,
           null
         ]
@@ -359,8 +416,19 @@
           null,
           null
         ]
+      },
+      "/Users/pippo/turing/2module/challenges/hogwarts_again/app/controllers/students_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1585324047
+    "timestamp": 1585325226
   }
 }
