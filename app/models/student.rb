@@ -4,4 +4,8 @@ class Student < ApplicationRecord
   has_many :professors, through: :professor_students
   default_scope { order(name: :asc) }
 
+  def num_of_professors
+    professors.size
+  end
+  
 end
