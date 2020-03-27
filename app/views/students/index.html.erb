@@ -1,10 +1,14 @@
-<% @students.each do |student| %>
-  <section id="student-<%= student.id %>">
-        <h1><%= student.name %></h1>
-        <p>Enrolled Courses:</p>
-        <% student.professors.each do |professor| %>
-          <p><%= professor.specialty %></p>
-        <% end %>
-        <p>Professors: <%= student.professors.size %></p>
-  </section>
-<% end %>
+<section class = "all-students">
+
+  <% @students.each do |student| %>
+    <section id="student-<%= student.id %>" class = "student">
+          <h1><%= student.name %></h1>
+          <p>Enrolled Courses:</p>
+          <% student.professors.each do |professor| %>
+            <p><%= professor.specialty %></p>
+          <% end %>
+          <p>Professors: <%= student.professors.size %></p>
+    </section>
+  <% end %>
+
+</section>

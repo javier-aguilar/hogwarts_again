@@ -339,6 +339,46 @@
           null
         ]
       },
+      "/Users/pippo/turing/2module/challenges/hogwarts_again/spec/features/user_can_see_information_sorted_alphabetically_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/pippo/turing/2module/challenges/hogwarts_again/spec/models/professor_spec.rb": {
         "lines": [
           1,
@@ -363,6 +403,7 @@
           1,
           1,
           1,
+          95,
           null,
           1,
           18,
@@ -426,6 +467,8 @@
           1,
           1,
           1,
+          86,
+          null,
           null
         ]
       },
@@ -452,7 +495,7 @@
           1,
           null,
           1,
-          1,
+          2,
           null,
           null,
           null
@@ -463,13 +506,13 @@
           1,
           null,
           1,
-          1,
+          2,
           null,
           null,
           null
         ]
       }
     },
-    "timestamp": 1585326415
+    "timestamp": 1585327052
   }
 }
