@@ -26,7 +26,7 @@ RSpec.describe "As a visitor" do
         expect(page).to have_content("Care of Magical Creatures")
         expect(page).to have_content("Defense Against The Dark Arts")
         expect(page).to have_content("Potions")
-        expect(page).to have_content("Professors: 3")
+        expect(page).to have_content("Number of Professors: 3")
       end
 
       within("#student-#{malfoy.id}") do
@@ -35,7 +35,7 @@ RSpec.describe "As a visitor" do
         expect(page).to have_content("Care of Magical Creatures")
         expect(page).to have_content("Defense Against The Dark Arts")
         expect(page).to have_no_content("Potions")
-        expect(page).to have_content("Professors: 2")
+        expect(page).to have_content("Number of Professors: 2")
       end
 
       within("#student-#{longbottom.id}") do
@@ -44,7 +44,7 @@ RSpec.describe "As a visitor" do
         expect(page).to have_no_content("Care of Magical Creatures")
         expect(page).to have_no_content("Defense Against The Dark Arts")
         expect(page).to have_content("Potions")
-        expect(page).to have_content("Professors: 1")
+        expect(page).to have_content("Number of Professors: 1")
       end
 
     end
